@@ -6,13 +6,11 @@ Code using javax.json-1.0.4.jar from
 */
 package shopifyapplication;
 
-import java.io.File;
 import java.io.FileReader;
 import org.json.simple.*;
 import org.json.simple.parser.*;
 
 /**
- *
  * @author Georges
  */
 public class ShopifyApplication
@@ -51,5 +49,4 @@ public class ShopifyApplication
 			e.printStackTrace();
 		}
 	}
-	
 }
